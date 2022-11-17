@@ -87,6 +87,53 @@ a:link:hover {
  
 
 
+ /*--------------------------------------------- Footer */
+.footer-home,
+.footer-404-page {
+    background-color: #000;
+    bottom: -20%;
+    width: 100%;
+    position: absolute;
+    color: #fff;
+}
+
+
+.follow-me {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.social-media {
+    text-align: center;
+    font-size: larger;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.social-media a:hover {
+    color: #e0780c;
+}
+
+.credits {
+    text-align: center;
+    font-size: small;
+    padding: 0;
+    margin: 0;
+}
+
+.sw-credits {
+    text-align: center;
+    font-size: x-small;
+    padding: 0;
+}
+
+
+
+
+
 /*--------------------------------------------- Media Queries */
 
 /*---------------- iPhone Portrait */
