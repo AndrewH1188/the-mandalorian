@@ -5,7 +5,7 @@
 
 /* ------------------------------------------------  Navbar Menu */
 .navbar-brand {
-    padding-right: 53%;
+    padding-right: 56%;
     padding-left: 1%;
 }
 
@@ -76,9 +76,6 @@ a:link:hover {
     padding-bottom: 2%;
 }
 
-
-
-
 .error-404-button {
     background: #fff;
     font-size: 20px;
@@ -92,31 +89,70 @@ a:link:hover {
 
 /*--------------------------------------------- Media Queries */
 
-/*-------------------------- iPad */
-@media (max-width: 768px) {
-    .navbar-links {
-        padding-left: 0;
-    }
-}
-
-
-/*-------------------------- iPad Rotated */
-@media (max-width: 1024px) {
-    .navbar-brand {
-        padding-right: 43%;
-    }
-}
-
-
-/*---------------- iPhone */
+/*---------------- iPhone Portrait */
 @media (max-width: 481px) {
     .navbar-brand {
         font-size: medium;
         padding: 0;
-        }
+    }
 
+    .navbar-toggler {
+        font-size: small;
+    }
+
+ 
+
+}
+
+
+
+
+
+/*---------------- iPhone Landscape */
+
+@media (max-width: 999px) {   
+    
+    .navbar-brand {
+        font-size: medium;
+        padding: 0;
+    }
+
+    .navbar-toggler {
+        font-size: small;
+    }
+
+   .welcome-h1,
+    .error-h1 {
+        padding-top: 60%;
+        font-size: xx-large;
+    }
+
+    .enter-page-button { 
+        margin-left: 30%;
+
+    }
+}
+
+/* ------------------------------------------- IPAD ONLY */
+/*-------------------------- iPad Portrait */
+@media (max-width: 768px) {
     .navbar-toggler {
         font-size: medium;
     }
 
+    .welcome-h1,
+    .error-h1 {
+        padding-top: 40%;
+    }
 }
+
+
+
+/*-------------------------- iPad Landscape */
+@media (min-width: 1024px) {
+    .navbar-brand {
+        padding-right: 42%;
+    }
+}
+
+
